@@ -114,6 +114,7 @@
     padding: 0 var(--bs-menu-item-padding-x)
 }
 
+/* menu stylesheet start */
 .logo-box .logo-sm {
     display: none
 }
@@ -844,6 +845,7 @@ html[data-layout=horizontal][data-sidebar-size=full] .main-menu .logo-box {
     background-color: var(--bs-menu-bg)
 }
 
+/* End menu stylesheet */
 .footer {
     margin-top: auto;
     height: 60px;
