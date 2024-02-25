@@ -3,6 +3,14 @@ $(window).resize(function() {
         adjustLayout()
     })
 });
+function menusimplebar(){
+    var myElement = document.getElementById('simplebarmenu');
+    new SimpleBar(myElement, { autoHide: true });
+}
+function notifysimplebar(){
+    var myElement = document.getElementById('notifysimplebar');
+    new SimpleBar(myElement, { autoHide: true });
+}
 function  adjustLayout() {
     if(window.innerWidth <= 1200){
 
@@ -138,4 +146,6 @@ class ThemeLayout {
 
 $(document).ready(function() {
   adjustLayout();
+  menusimplebar();
+  notifysimplebar();
 });
